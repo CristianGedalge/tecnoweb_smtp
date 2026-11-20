@@ -1,0 +1,26 @@
+# Copia este archivo como correo.properties y completa tu cuenta.
+# Seguridad: none, starttls o ssl. Ajusta el puerto segun tu servidor.
+pop3.host=www.tecnoweb.org.bo
+pop3.port=110
+pop3.seguridad=none
+pop3.usuario=TU_USUARIO
+pop3.password=TU_CONTRASENA
+
+smtp.host=mail.tecnoweb.org.bo
+smtp.port=25
+smtp.seguridad=none
+smtp.emisor=TU_USUARIO@tecnoweb.org.bo
+smtp.auth=false
+smtp.usuario=
+smtp.password=
+
+# Configuracion Base de Datos PostgreSQL (esquema talento)
+db.url=jdbc:postgresql://localhost:5432/talento?currentSchema=talento,public
+db.usuario=postgres
+db.password=postgres
+
+intervalo.segundos=10
+procesados.archivo=.correos-procesados
+adjuntos.directorio=storage_correo
+# Version de consentimiento del modelo reducido (26 tablas)
+sistema.version_politica_privacidad=1.0
